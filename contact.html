@@ -3,26 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Contact</title>
   </head>
   <body>
-    <nav>
-      <a href="./index.html">Home</a>
-      <a href="./about.html">About</a>
-      <a href="./portfolio.html">Portfolio</a>
-      <a href="#">Contact</a>
-    </nav>
-    <h1>Leave a Message</h1>
-    <img src="./img/homepage.png" alt="" />
-    <div>
-      <h2>Name</h2>
-      <input type="text" name="Name" />
-      <h2>Email</h2>
-      <input type="email" name="Email" />
-      <h2>Message</h2>
-      <input type="Message" />
-    </div>
+    <header>
+      <nav>
+        <h1>Jesse Woodson</h1>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="maincontent">
+      <h2 id="content3">Leave a Message</h2>
+      <img
+        id="conimg"
+        width="600px"
+        height="600px"
+        src="./img/homepage.png"
+        alt=""
+      />
+      <form class="contactform" action="submitform" method="post">
+        <label for="Name">Name</label>
+        <input type="name" name="Name" id="name" />
 
-    <button type="submit">Send</button>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="email" />
+
+        <label for="Message">Message</label>
+        <input type="text" name="message" id="message" />
+        <button id="submitbutton" type="submit">submit</button>
+      </form>
+    </main>
   </body>
 </html>

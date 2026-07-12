@@ -1,5 +1,4 @@
 * {
-  background-color: rgb(236, 236, 226);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +9,11 @@ h2 {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   padding: 1em;
-  background-color: rgb(235, 237, 239);
+  background-color: rgb(226, 230, 234);
+  height: 100vh;
 }
 nav {
   margin: 1em auto 3em auto;
@@ -35,6 +37,11 @@ a {
   align-items: center;
   gap: 3em;
   flex-wrap: wrap;
+  background-color: aliceblue;
+  width: 70vw;
+  margin: auto;
+  border-radius: 1em;
+  padding: 20px;
 }
 img {
   max-width: 100%;
@@ -42,6 +49,7 @@ img {
 }
 .container2 {
   flex: 0 1 34em;
+  background-color: aliceblue;
 }
 .container2,
 p {
@@ -56,6 +64,6 @@ p {
   color: aliceblue;
   position: relative;
   height: 20px;
-  margin-top: 0px;
+
   text-align: center;
 }

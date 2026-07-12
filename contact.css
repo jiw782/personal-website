@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(198, 208, 218);
+}
+nav {
+  margin: 1em auto 3em auto;
+  width: min (1000px, 100%);
+}
+nav,
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2em;
+  justify-content: space-between;
+}
+nav,
+a {
+  text-decoration: none;
+}
+.maincontent {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+}
+label {
+  padding: 15px 0 5px 0;
+}
+form {
+  padding-bottom: 25px;
+}
+#submitbutton {
+  height: 35px;
+  color: rgb(80, 135, 88);
+  font-size: 25px;
+  background: linear-gradient(90deg);
+  margin-top: 25px;
+}
+#message {
+  height: 60px;
+}

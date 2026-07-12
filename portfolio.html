@@ -3,19 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./portfolio.css" />
+
     <title>Portfolio</title>
   </head>
   <body>
+    <header>
     <nav>
-      <a href="./index.html">Home</a>
-      <a href="./about.html">About</a>
-      <a href="#">Portfolio</a>
-      <a href="./contact.html">Contact</a>
+      <h1>Jesse Woodson</h1>
+      <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      </ul>
     </nav>
-    <h1>Things I Have Built</h1>
-    <main>
-      <h2>Project A</h2>
-      <img src="" alt="" />
+    </header>
+
+    
+    <div class="flex-container">
+      <h2>Tools I Use</h2>
+      <div class="container">
+
+      <div class="pa">
+      <h3>HTML</h3>
+      <img src="./img/html.jpg" alt="" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
         impedit, tempore nemo corporis quis reprehenderit voluptatibus, ipsam
@@ -24,9 +36,13 @@
         consectetur adipisicing elit. Commodi, autem. Esse velit commodi
         blanditiis veritatis ab! Quis nisi incidunt doloribus, voluptatum sint,
         at illo placeat aperiam veritatis esse quasi eum!
+        <a href="#">Click Here</a>
       </p>
-      <h2>Project B</h2>
-      <img src="" alt="" />
+      </div>
+
+      <div class="pa">
+      <h3>GIT</h3>
+      <img src="./img/git.jpg" alt="" />
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam magnam
         blanditiis ut quia, esse quod enim, similique aliquid debitis explicabo
@@ -34,10 +50,13 @@
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos
         incidunt molestiae suscipit minima! Blanditiis necessitatibus ab itaque
         voluptates culpa, officiis repellendus sunt laudantium corrupti quo
-        quos, laborum, similique veritatis!
+        quos, laborum, similique veritatis! <a href="#">Click Here</a>
       </p>
-      <h2>Project C</h2>
-      <img src="" alt="" />
+      </div>
+
+      <div class="pa">
+      <h3>CSS</h3>
+      <img src="./img/css.jpg" alt="" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
         dignissimos magni voluptatem ea odit, reiciendis quis cupiditate id
@@ -46,7 +65,10 @@
         adipisicing elit. Dolore perferendis officiis ducimus voluptates
         delectus ipsam expedita distinctio maxime assumenda cum nemo sit
         corrupti praesentium mollitia, quia ratione fugit corporis ut!
+        <a href="#">Click Here</a>
       </p>
-    </main>
+      </div>
+    </div>
+    <footer id="footer">&copy;2026 Jesse Woodson</footer>
   </body>
 </html>
